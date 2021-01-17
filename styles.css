@@ -1,0 +1,224 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: lightblue;
+  padding: 20px;
+}
+
+.serif {
+  font-family: Georgia, Times;
+}
+header > h1 {
+  text-align: center;
+  font-family: serif, Georgia;
+}
+
+header > h5 {
+  text-align: center;
+  font-family: serif, Times;
+  margin-top: 6px;
+}
+
+body {
+  background-color: #24272E;
+}
+
+.score-board {
+  margin: 20px auto;
+  border: 3px solid white;
+  border-radius: 4px;
+  text-align: center;
+  width: 200px;
+  color: white;
+  font-size: 46px;
+  padding: 15px 20px;
+  font-family: serif, Georgia;
+  position: relative;
+}
+
+.badge {
+  background: #E2584D;
+  color: white;
+  font-size: 14px;
+  padding: 2px 3px;
+  font-family: serif, Georgia;
+}
+
+#p1-label {
+  position: absolute;
+  top: 30px;
+  left: -25px;
+}
+
+#p2-label {
+  position: absolute;
+  top: 30px;
+  right: -25px;
+}
+
+.board {
+  margin: 30px auto;
+  padding: 0px;
+}
+
+.player {
+  font-size: 24px;
+  font-family: serif, Georgia;
+}
+
+#player1 {
+  color: lightgreen;
+  text-align: left;
+  position: absolute;
+  left: 150px;
+}
+
+#player2 {
+  color: orange;
+  text-align: right;
+  position: absolute;
+  right: 150px;
+}
+
+.xo {
+  color: grey;
+  font-size:37px;
+  margin: 10px;
+  padding: 5px;
+  border: 4px solid white;
+  border-radius: 50px;
+}
+
+#p1x {
+  text-align: left;
+  position: absolute;
+  top: 248px;
+  left: 120px;
+}
+
+#p2x {
+  text-align: left;
+  position: absolute;
+  top: 248px;
+  right: 190px;
+}
+
+#p1o {
+  text-align: left;
+  position: absolute;
+  top: 248px;
+  left: 190px;
+}
+
+#p2o {
+  text-align: right;
+  position: absolute;
+  top: 248px;
+  right: 120px;
+}
+
+.p1-light-up {
+  border-color: lightgreen;
+}
+
+.p2-light-up {
+  border-color: orange; 
+}
+
+button {
+  text-align: left;
+  font-size: 28px;
+  font-family: serif,Georgia;
+  color: white;
+  background-color: #24272E;
+
+}
+
+#restart {
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: -25px 30px;
+  padding: 6px 8px;
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+}
+
+#play-again {
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 6px 8px;
+  margin: 20px 30px;
+  position: absolute;
+  bottom: 150px;
+  left: 100px;
+}
+
+#restart:hover {
+    cursor: pointer;
+    font-size: 30px;
+    border: 6px solid lightblue;
+}
+
+#play-again:hover {
+    cursor: pointer;
+    font-size: 30px;
+    border: 6px solid lightblue;
+}
+#luck  {
+  text-align: center;
+  margin-top: 85px;
+  font-size: 26px;
+  color: white;
+}
+
+.p1:hover {
+  cursor: pointer;
+  border: 4px solid lightgreen;
+}
+
+.p2:hover {
+  cursor: pointer;
+  border: 4px solid orange;
+}
+
+#s1:hover {
+  cursor: pointer;
+  background: lightblue;
+}
+#s2:hover {
+  cursor: pointer;
+  background: lightblue;
+}
+#s3:hover {
+  cursor: pointer;
+  background: lightblue;
+}
+#s4:hover {
+  cursor: pointer;
+  background: lightblue;
+}
+#s5:hover {
+  cursor: pointer;
+  background: lightblue;
+}
+#s6:hover {
+  cursor: pointer;
+  background: lightblue;
+}
+#s7:hover {
+  cursor: pointer;
+  background: lightblue;
+}
+#s8:hover {
+  cursor: pointer;
+  background: lightblue;
+}
+#s9:hover {
+  cursor: pointer;
+  background: lightblue;
+}

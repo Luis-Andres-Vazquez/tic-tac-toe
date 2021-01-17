@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+      td {
+        border: 6px solid lightblue;
+        padding: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tic-Tac-Toe</h1>
+      <h5>HUMAN VS HUMAN</h5>
+    </header>
+    <div class="score-board">
+      <div id="p1-label" class="badge">Player 1</div>
+      <div id="p2-label" class="badge">Player 2</div>
+      <span id="p1-score">0</span> : <span id="p2-score">0</span>
+      </div>
+
+    <div id="player1" class="player">Player 1</div>
+    <div id="player2" class="player">Player 2</div>
+    <div class="choices">
+      <button id="p1x" class="xo p1">X</button><button id="p1o" class="xo p1">O</button>
+      <span id="p2x" class="xo p2">X</span><span id="p2o" class="xo p2">O</span>
+
+
+    <button id="play-again" onclick="again()">Play again!</button>
+    <button id="restart" onclick="restart()">Restart</button>
+
+    <div id="luck"> Player 1 choose item. Good luck soldiers!</div>
+
+    <table class="board" style="font-size:70px">
+      <tr class="row1">
+        <td id="s1">_</td>
+        <td id="s2">_</td>
+        <td id="s3">_</td>
+      </tr>
+
+      <tr class="row2">
+        <td id="s4">_</td>
+        <td id="s5">_</td>
+        <td id="s6">_</td>
+      </tr>
+      <tr class="row3">
+        <td id="s7">_</td>
+        <td id="s8">_</td>
+        <td id="s9">_</td>
+      </tr>
+   </table>
+
+   <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
